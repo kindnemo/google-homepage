@@ -5,8 +5,86 @@ nav{
 }
 
 .navitms{
+    display: flex;
     position: absolute;
     right: 0px;
+    float:right;
+    padding: 0px 4px;
+    height: 48px;
+    /* justify-content: flex-end; */
+    align-items: center;
+    font: 13px/27px;
+}
+.navlinks{
+    padding-right: 15px;
+    line-height: normal;
+    font: 13px/27px;
+}
+
+.uplink{       /*The gmail and images link in the nav bar*/
+    display: inline-block;
+    color:rgba(0,0,0,0.87);
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    vertical-align: middle;
+    text-decoration: none;
+    white-space: nowrap;
+    padding-left: 15px;
+}
+
+.uplink:hover{
+    text-decoration: underline;
+}
+
+.morapp{
+    margin-right: 4px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+    background-position: -64px -29px;
+    color: #5f6368;
+    cursor: pointer;
+}
+
+.morapp:hover{
+    opacity: 1;
+    background-color: rgba(60,64,67,0.08);
+    outline: none;
+    border-radius: 50%;
+}
+
+#moreapps{
+    padding: 8px;
+}
+
+#signin{
+    color: #fff;
+    background-color: #1a73e8;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 9px 23px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    border:1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    display: inline-block;
+    min-width: 96px;
+}
+
+#signin:hover{
+    background-color: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
 }
 
 .logodiv{
@@ -48,15 +126,12 @@ nav{
     border-color: rgba(223,225,229,0);
 }
 
-span{
-    margin-top: 10px;
-}
-
 #srchbtn{
     color: rgb(154, 160, 166);
     height: 15px;
     width: 15px;
     padding-right:10px;
+    margin-top: 10px;
 }
 
 #searcharea{
@@ -90,6 +165,7 @@ span{
     margin-right: 4px;
     padding-right: 16px;
     padding-left: 16px;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
     font-size: 14px;
     background-color: rgb(248, 249, 250);
     color: rgb(60, 64, 67);
