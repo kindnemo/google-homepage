@@ -17,6 +17,7 @@ nav{
     position: absolute;
     right: 0px;
     float:right;
+    margin-top: 6px;
     padding: 0px 4px;
     height: 48px;
     /* justify-content: flex-end; */
@@ -214,8 +215,5 @@ footer a:hover{
     position: absolute;
     right: 0;
     padding: 0px 20px;
-    
-}
 
-.leftlink{
 }
