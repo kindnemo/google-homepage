@@ -1,4 +1,12 @@
-
+body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 nav{
     height: 50px;
     position: relative;
@@ -177,4 +185,37 @@ nav{
     box-shadow:  0 1px 1px rgba(0,0,0,.1);
     border: 1px solid #dadce0;
     color: #202124;
+}
+
+footer{
+    margin-top: auto;
+    font-family: arial,sans-serif;
+    position: relative;
+    display: flex; 
+    flex-wrap: wrap;
+    height: 45px;
+    padding: 0px 20px;
+    font-size: 14px;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+footer a{
+    padding: 15px;
+    color: #70757a;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.rightlink{
+    position: absolute;
+    right: 0;
+    padding: 0px 20px;
+    
+}
+
+.leftlink{
 }
